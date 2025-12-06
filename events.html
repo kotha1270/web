@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Events – CIS Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="main-header">
+    <img src="images/logo_n.jpg" class="logo" alt="CIS Club Logo">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html" class="active">Events</a></li>
+            <li><a href="members.html">Join</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="events-page">
+    <h1>All Events</h1>
+
+    <!-- Filters -->
+    <div class="event-filters">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="workshop">Workshop</option>
+            <option value="contest">Contest</option>
+            <option value="seminar">Seminar</option>
+        </select>
+
+        <input type="text" id="searchBox" placeholder="Search events...">
+    </div>
+
+    <!-- Event List (JS diye) -->
+    <div id="eventList" class="event-list"></div>
+</section>
+
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="footer-content">
+        <h3>CIS Club</h3>
+        <p>Empowering students through technology, creativity, and collaboration.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="members.html">Join</a>
+            <a href="resources.html">Resources</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+
+        <p class="copy">©️ 2025 CIS Club. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

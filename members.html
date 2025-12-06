@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Join CIS Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="main-header">
+    <img src="images/logo_n.jpg" class="logo" alt="CIS Club Logo">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="members.html" class="active">Join</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Join Form Section -->
+<section class="join-section">
+    <h2>Join CIS Club</h2>
+    <p>Fill the form below to become a member of our club!</p>
+
+    <form id="joinForm" class="join-form">
+
+        <label>Full Name:</label>
+        <input type="text" id="fullname" placeholder="Enter your full name">
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label>Department:</label>
+        <select id="dept">
+            <option value="">Select your department</option>
+            <option value="CIS">CIS</option>
+            <option value="CSE">CSE</option>
+            <option value="SWE">SWE</option>
+            <option value="ICE">ICE</option>
+            <option value="EEE">EEE</option>
+            <option value="BBA">BBA</option>
+            <option value="Civil">Civil</option>
+        </select>
+
+        <label>Student ID:</label>
+        <input type="text" id="studentid" placeholder="Enter your ID">
+
+        <label>Why do you want to join?</label>
+        <textarea id="reason" placeholder="Write your reason"></textarea>
+
+        <button type="button" id="joinBtn" class="join-btn">Submit</button>
+
+        <p id="successMsg" class="success-text"></p>
+
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="footer-content">
+        <h3>CIS Club</h3>
+        <p>Empowering students through technology, creativity and collaboration.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html"> About</a>
+            <a href="events.html">Events</a>
+            <a href="members.html">Join</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p class="copy">©️ 2025 CIS Club. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
